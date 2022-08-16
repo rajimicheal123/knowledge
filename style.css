@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Source sans Pro;
+}
+
+
+.Up-Ellips {
+    position: absolute;
+    height: 363px;
+    width: 363px;
+    left: 786px;
+    top: 368px;
+    border-radius: 0px;
+}
+
+.Down-Ellips {
+    position: absolute;
+    height: 243px;
+    width: 363px;
+    left: 303px;
+    top: 880px;
+    border-radius: 0px;
+}
+
+.sec2 {
+    position: absolute;
+    height: 560px;
+    width: 680px;
+    left: 50%;
+    top: 50%;
+    border-radius: 10px;
+   background: #FFFFFF;
+   opacity: 70%;
+    Offset: 0px, 4px rgba(0, 0, 0, 0.1);
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 4px 24px 7px #0000001A;
+
+}
+
+.sec2 h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 30px 0 20px 0;
+
+}
+
+
+form {
+    padding: 0 70px;
+    box-sizing: border-box;
+}
+
+
+form .txt_field {
+    position: relative;
+    box-sizing: border-box;
+    margin: 8px 0;
+}
+
+
+.txt_field {
+    position: relative;
+    left: 10%;
+
+}
+
+.forget {
+    position: relative;
+    height: 28px;
+    width: 121px;
+    left: 360px;
+    bottom: 15px;
+    border-radius: nullpx;
+    color: #232C7F;
+}
+
+::placeholder {
+    position: absolute;
+    margin: 8px 18px;
+
+}
+
+.username {
+    height: 40px;
+    width: 412px;
+    left: 500px;
+    top: 203px;
+    border-radius: 10px;
+    background: #F5F5F5;
+    border: none;
+    outline: none;
+
+}
+
+.password {
+    height: 40px;
+    width: 412px;
+    left: 515px;
+    top: 263px;
+    border-radius: 10px;
+    background: #F5F5F5;
+    border: none;
+    outline: none;
+}
+
+.sign-in-btn {
+    position: relative;
+    border: none;
+    height: 40px;
+    width: 414px;
+    left: 60px;
+    bottom: 30px;
+    border-radius: 10px;
+    background: #232C7F;
+}
+
+.sign1 {
+
+    color: #FFFFFF;
+    font-family: Source Sans Pro;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+}
+
+.sign-up {
+    position: absolute;
+    height: 28px;
+    width: 216px;
+    left: 240px;
+    top: 330px;
+    border-radius: nullpx;
+    color: linear-gradient(0deg, #232C7F, #232C7F),
+        linear-gradient(0deg, #302D2D, #302D2D);
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+}
+
+.spanA{
+    text-decoration: none;
+}
+
+
+
+.alignment .line1 {
+    padding: 100px
+}
+
+.lines {
+    position: relative;
+    height: 45px;
+    left: 10px;
+}
+
+
+.lines::before,
+.lines::after {
+    content: '';
+    position: absolute;
+    margin: auto;
+    height: 2px;
+    background: #DFDFDF;
+    width: 50%;
+    top: 10%;
+}
+
+.lines::after {
+    left: 0;
+    width:37%;
+    left:10%;
+  
+}
+
+.lines::before {
+    right: 0;
+    width:34%;
+    right:13%;
+}
+
+.word-or{
+    margin: auto;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+.google{
+    position:absolute;
+    top:79%;
+    height: 25px;
+    width: 25px;
+    right: 63%;
+}
+
+
+.facebook{
+    position:absolute;
+    top:79%;
+    height: 25px;
+    width: 25px;
+    right:49.1%;
+}
+
+.linkedin{
+    position:absolute;
+    top:79%;
+    height: 25px;
+    width: 25px;
+    left: 63.5%;
+}
+
+
+.bg1 {
+    position: relative;
+    top: 30%;
+    height: 50px;
+    width: 50px;
+    left:31.56%;
+}
+
+.bg2 {
+    position: relative;
+    top: 30%;
+    height: 50px;
+    width: 50px;
+    left: 38%;
+}
+
+.bg3{
+    position: relative;
+    top: 30%;
+    height: 50px;
+    width: 50px;
+    left: 46%;
+}
+
+
+.Ellips1{
+    position: relative;
+    left: 60%;
+}
+
+
+.Ellips2{
+    position:absolute;
+    top: 500px;
+    left: 15%;
+}
+
+
+@media (max-width: 1024px) {
+
+}
